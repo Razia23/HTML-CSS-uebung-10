@@ -1,0 +1,140 @@
+body{
+    background-color:white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+header{
+background-color: lightgrey;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+box-shadow: black;
+border-radius: 10px;
+margin: 10px;
+
+}
+header img{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-right: 15%;
+    box-shadow: black 10px 10px 10px;
+}
+header div{
+    justify-content: space-around;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+header div a{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(246, 241, 241, 0.884);
+    margin: 10px;
+    padding: 4px;
+    border-radius: 810px;
+    text-decoration: none;
+    box-shadow: black 10px 10px 10px;
+     }
+     nav{
+        width: 100%;
+        height: 30px;
+        margin: 10px;
+        padding: 10px;
+        background-color:rgb(248, 238, 238);
+        border: black solid 2px;
+        padding: 10px;
+        
+        
+     }
+     nav input{
+        display: flex;
+        margin-left: 40%;
+        width: 30%;
+        margin-right: 5px;
+     }
+
+main{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    padding: 20px;
+}
+.left{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(234, 229, 229);
+    border-radius: 10px;
+    box-shadow: dimgrey 20px 20px 20px;
+}
+.left h3{
+    width: 100%;
+    text-align: left;
+}
+.left img{
+    width: 150px;
+    border: groove rgb(180, 180, 255) 3px;
+    box-shadow: black 10px 10px 10px;
+}
+.right{
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 9px;
+    box-shadow: dimgrey 20px 20px 20px;
+}
+.right h1{
+    width: 100%;
+    text-align: center;
+}
+.right h5{
+    width: 100%;
+    text-align: left;
+}
+.right p{
+    width: 100%;
+}
+.right .pro{
+    padding-left: 30%;
+    
+}
+.computer {
+    width: 400px;
+    box-shadow: dimgrey 20px 20px 20px ;
+    border-radius: 10px;
+    margin-left: 32%;
+
+
+}
+.right .pro img{
+    width: 120px;
+    border: groove rgba(105, 105, 105, 0.818) 2px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: dimgrey 20px 20px 20px ;
+    
+}
+
+    .right .pro table{
+    border-spacing: 15px 10px;
+}
+.right .kontakt{
+    align-items: center;
+    padding: 40px;
+    margin: 20px;
+
+}
+h2{
+    width: 100%;
+    text-align: center;
+}
+.chip{
+    width: 320px;
+    border: solid gray 5px;
+    border-radius: 30px;
+    align-items: center;
+    margin-left: 35%; 
+    box-shadow: dimgrey 20px 20px 20px ;
+    
+}
